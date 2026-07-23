@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+pycaret
+tpot
+h2o
+shap
+matplotlib
+jupyter
+notebook
+openpyxl
