@@ -1,35 +1,46 @@
-# Human-Centered AutoML Trade-off Analysis
+# Trade-offs Between Automation and User Control in AutoML Systems
 
-This repository contains the experiments and comparative analysis conducted for a master’s thesis focusing on the trade-offs between automation, usability, transparency, configurability, and user control in AutoML systems.
+## Overview
+
+This repository contains the implementation and experimental code for my Master's thesis on the trade-offs between automation and user control in Automated Machine Learning (AutoML) systems.
 
 The study compares three AutoML frameworks:
+
 - PyCaret
 - TPOT
 - H2O AutoML
 
-The frameworks are evaluated using the same classification dataset and identical train-test splits in order to analyze both technical performance and human-centered aspects of AutoML workflows.
+using multiple datasets and evaluating them according to:
 
-## Project Structure
-
-datasets/ → dataset used for the experiments  
-notebooks/ → Jupyter notebooks for each AutoML framework  
-results/ → generated results, tables, and visualizations  
-screenshots/ → workflow and output screenshots used in the thesis  
-
-## Evaluation Dimensions
-
-The comparative analysis focuses on:
 - Predictive performance
 - Computational efficiency
-- Usability
-- Transparency and explainability
-- Configurability
+- Explainability
+- Reproducibility
 - User control
 
-## Dataset
+---
 
-The experiments use the Breast Cancer Wisconsin (Diagnostic) dataset available through the scikit-learn library.
+## Repository Structure
 
-## Reproducibility
+```
+Datasets/
+Notebooks/
+Results/
+Screenshots/
+```
 
-All experiments were conducted using Python-based notebook environments. The repository includes the notebooks, dataset, and dependency configuration required to reproduce the experiments.
+---
+
+## Current Progress
+
+-  Project structure created
+-  Python environment configured
+-  Dataset preprocessing implemented
+-  AutoML experiments in progress
+
+---
+
+## Author
+
+Master of Specialization in Big Data  
+Université Libre de Bruxelles (ULB)
