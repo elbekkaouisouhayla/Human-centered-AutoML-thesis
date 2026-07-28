@@ -3,7 +3,8 @@
 .venv/
 venv/
 tpot_env/
-
+# H2O exported model files
+Results/h2o/
 # Python cache
 __pycache__/
 *.py[cod]
