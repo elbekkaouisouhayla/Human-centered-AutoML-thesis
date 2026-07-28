@@ -1,0 +1,8 @@
+framework,dataset,seed,best_model,accuracy,precision_macro,recall_macro,f1_macro,search_runtime_seconds,prediction_runtime_seconds,total_runtime_seconds
+TPOT,wine,2026,"Pipeline(steps=[('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.01, max_depth=1,
+                                            max_features=0.5,
+                                            min_samples_leaf=6,
+                                            min_samples_split=10,
+                                            random_state=2026,
+                                            subsample=0.3))])",0.9444444444444444,0.9523809523809524,0.9523809523809524,0.9487179487179488,603.2600078000687,0.0023811000864952803,603.2623889001552

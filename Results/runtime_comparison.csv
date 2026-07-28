@@ -1,0 +1,6 @@
+,mean,mean,mean,std,std,std
+framework,H2O AutoML,PyCaret,TPOT,H2O AutoML,PyCaret,TPOT
+dataset,,,,,,
+breast_cancer,600.87,5.58,607.07,2.41,1.09,5.21
+titanic,591.85,5.96,626.55,2.35,0.79,16.71
+wine,602.09,6.5,604.43,0.7,0.69,4.88

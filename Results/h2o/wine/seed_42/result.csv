@@ -1,0 +1,2 @@
+framework,dataset,seed,accuracy,precision_macro,recall_macro,f1_macro,runtime_seconds,best_model,models_evaluated,model_path
+H2O AutoML,wine,42,0.9444444444444444,0.9583333333333334,0.9333333333333332,0.9407407407407407,601.7448986999225,StackedEnsemble_BestOfFamily_3_AutoML_4_20260726_212002,172,C:\Users\souha\Downloads\Human Centered AutoML Thesis\Results\h2o\wine\seed_42\StackedEnsemble_BestOfFamily_3_AutoML_4_20260726_212002

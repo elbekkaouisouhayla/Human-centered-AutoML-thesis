@@ -1,0 +1,8 @@
+framework,dataset,seed,best_model,accuracy,precision_macro,recall_macro,f1_macro,search_runtime_seconds,prediction_runtime_seconds,total_runtime_seconds
+TPOT,breast_cancer,123,"Pipeline(steps=[('stackingestimator',
+                 StackingEstimator(estimator=BernoulliNB(alpha=100.0))),
+                ('sgdclassifier',
+                 SGDClassifier(alpha=0.001, eta0=0.01, fit_intercept=False,
+                               l1_ratio=0.75, learning_rate='constant',
+                               penalty='elasticnet', power_t=50.0,
+                               random_state=123))])",0.9649122807017544,0.9672297297297296,0.9573412698412699,0.9619111259605746,602.7837604999077,0.006683300016447902,602.7904437999241

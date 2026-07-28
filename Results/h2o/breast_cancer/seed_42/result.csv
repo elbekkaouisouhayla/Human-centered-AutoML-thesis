@@ -1,0 +1,2 @@
+framework,dataset,seed,accuracy,precision_macro,recall_macro,f1_macro,runtime_seconds,best_model,models_evaluated,model_path
+H2O AutoML,breast_cancer,42,0.9298245614035088,0.9195075757575757,0.939484126984127,0.9265700483091788,602.5040124000516,DeepLearning_grid_1_AutoML_1_20260726_204956_model_3,128,C:\Users\souha\Downloads\Human Centered AutoML Thesis\Results\h2o\breast_cancer\seed_42\DeepLearning_grid_1_AutoML_1_20260726_204956_model_3

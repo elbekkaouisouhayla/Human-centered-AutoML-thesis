@@ -1,0 +1,2 @@
+framework,dataset,seed,accuracy,precision_macro,recall_macro,f1_macro,runtime_seconds,best_model,models_evaluated,model_path
+H2O AutoML,titanic,2026,0.7786259541984732,0.7695386064030132,0.7827160493827161,0.7722012352341548,594.5185421998613,StackedEnsemble_AllModels_4_AutoML_9_20260726_220953,56,C:\Users\souha\Downloads\Human Centered AutoML Thesis\Results\h2o\titanic\seed_2026\StackedEnsemble_AllModels_4_AutoML_9_20260726_220953

@@ -1,4 +1,24 @@
 # Python
+# Virtual environments
+.venv/
+venv/
+tpot_env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temporary Excel files
+~$*.xlsx
+
+# H2O exported models
+StackedEnsemble*
 __pycache__/
 *.py[cod]
 *.pyo

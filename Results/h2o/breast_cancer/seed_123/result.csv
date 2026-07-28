@@ -1,0 +1,2 @@
+framework,dataset,seed,accuracy,precision_macro,recall_macro,f1_macro,runtime_seconds,best_model,models_evaluated,model_path
+H2O AutoML,breast_cancer,123,0.9912280701754386,0.9883720930232558,0.9930555555555556,0.99062114356232,602.0183878000826,StackedEnsemble_BestOfFamily_6_AutoML_2_20260726_210000,116,C:\Users\souha\Downloads\Human Centered AutoML Thesis\Results\h2o\breast_cancer\seed_123\StackedEnsemble_BestOfFamily_6_AutoML_2_20260726_210000

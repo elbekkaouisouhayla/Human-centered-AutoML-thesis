@@ -1,0 +1,5 @@
+framework,dataset,seed,best_model,accuracy,precision_macro,recall_macro,f1_macro,search_runtime_seconds,prediction_runtime_seconds,total_runtime_seconds
+TPOT,wine,123,"Pipeline(steps=[('extratreesclassifier',
+                 ExtraTreesClassifier(max_features=0.35000000000000003,
+                                      min_samples_split=17,
+                                      random_state=123))])",0.9722222222222222,0.9743589743589745,0.9761904761904763,0.974320987654321,609.7931300001219,0.012918899999931455,609.8060489001218

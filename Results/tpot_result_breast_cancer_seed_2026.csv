@@ -1,0 +1,4 @@
+framework,dataset,seed,best_model,accuracy,precision_macro,recall_macro,f1_macro,search_runtime_seconds,prediction_runtime_seconds,total_runtime_seconds
+TPOT,breast_cancer,2026,"Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('zerocount', ZeroCount()),
+                ('mlpclassifier', MLPClassifier(random_state=2026))])",0.9649122807017544,0.9623015873015872,0.9623015873015872,0.9623015873015872,605.5590588999912,0.006840900052338839,605.5658998000436

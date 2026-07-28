@@ -1,0 +1,8 @@
+framework,dataset,seed,best_model,accuracy,precision_macro,recall_macro,f1_macro,search_runtime_seconds,prediction_runtime_seconds,total_runtime_seconds
+TPOT,breast_cancer,42,"Pipeline(steps=[('stackingestimator',
+                 StackingEstimator(estimator=MLPClassifier(alpha=0.01,
+                                                           learning_rate_init=1.0,
+                                                           random_state=42))),
+                ('mlpclassifier',
+                 MLPClassifier(alpha=0.001, learning_rate_init=0.01,
+                               random_state=42))])",0.9649122807017544,0.9623015873015872,0.9623015873015872,0.9623015873015872,612.8667872999795,0.005684999981895089,612.8724722999614

@@ -1,0 +1,2 @@
+framework,dataset,seed,accuracy,precision_macro,recall_macro,f1_macro,runtime_seconds,best_model,models_evaluated,model_path
+H2O AutoML,wine,2026,0.9722222222222222,0.9743589743589745,0.9761904761904763,0.974320987654321,601.6194412000477,DRF_1_AutoML_6_20260726_214008,128,C:\Users\souha\Downloads\Human Centered AutoML Thesis\Results\h2o\wine\seed_2026\DRF_1_AutoML_6_20260726_214008

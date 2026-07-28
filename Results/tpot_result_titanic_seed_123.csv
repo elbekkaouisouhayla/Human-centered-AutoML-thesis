@@ -1,0 +1,10 @@
+framework,dataset,seed,best_model,accuracy,precision_macro,recall_macro,f1_macro,search_runtime_seconds,prediction_runtime_seconds,total_runtime_seconds
+TPOT,titanic,123,"Pipeline(steps=[('stackingestimator',
+                 StackingEstimator(estimator=ExtraTreesClassifier(max_features=1.0,
+                                                                  min_samples_leaf=15,
+                                                                  min_samples_split=17,
+                                                                  random_state=123))),
+                ('randomforestclassifier',
+                 RandomForestClassifier(max_features=0.8, min_samples_leaf=3,
+                                        min_samples_split=9,
+                                        random_state=123))])",0.7748091603053435,0.7640124699616808,0.750925925925926,0.7558556424228066,644.2635860000737,0.05812780000269413,644.3217138000764

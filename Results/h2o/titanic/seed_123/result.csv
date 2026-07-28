@@ -1,0 +1,2 @@
+framework,dataset,seed,accuracy,precision_macro,recall_macro,f1_macro,runtime_seconds,best_model,models_evaluated,model_path
+H2O AutoML,titanic,123,0.7709923664122137,0.7575462512171374,0.7612345679012346,0.7591911764705883,590.0590906001162,GBM_grid_1_AutoML_8_20260726_220002_model_7,68,C:\Users\souha\Downloads\Human Centered AutoML Thesis\Results\h2o\titanic\seed_123\GBM_grid_1_AutoML_8_20260726_220002_model_7

@@ -1,0 +1,2 @@
+framework,dataset,seed,accuracy,precision_macro,recall_macro,f1_macro,runtime_seconds,best_model,models_evaluated,model_path
+H2O AutoML,wine,123,0.9722222222222222,0.9743589743589745,0.9761904761904763,0.974320987654321,602.8983303999994,GBM_grid_1_AutoML_5_20260726_213005_model_48,137,C:\Users\souha\Downloads\Human Centered AutoML Thesis\Results\h2o\wine\seed_123\GBM_grid_1_AutoML_5_20260726_213005_model_48

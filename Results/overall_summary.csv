@@ -1,0 +1,6 @@
+,accuracy,accuracy,precision_macro,precision_macro,recall_macro,recall_macro,f1_macro,f1_macro,runtime_seconds,runtime_seconds
+,mean,std,mean,std,mean,std,mean,std,mean,std
+framework,,,,,,,,,,
+H2O AutoML,0.8996,0.0858,0.8953,0.0917,0.9004,0.0892,0.8957,0.0901,598.2717,5.14
+PyCaret,0.9161,0.0956,0.9137,0.101,0.9079,0.1051,0.91,0.1036,6.0148,0.8555
+TPOT,0.9056,0.0888,0.9033,0.0952,0.8983,0.0982,0.8998,0.0967,612.6823,13.8552
