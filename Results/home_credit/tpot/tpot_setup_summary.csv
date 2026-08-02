@@ -1,0 +1,2 @@
+framework,framework_version,dataset,target,ignored_identifier,seed,folds,search_space,optimization_metric,native_preprocessing,population_size,initial_population_size,maximum_runtime_minutes,maximum_evaluation_minutes,workers,processes,train_rows,test_rows,number_of_features,number_of_categorical_features,number_of_numerical_features,raw_train_test_columns_identical
+TPOT,1.1.0,Home Credit Default Risk,TARGET,SK_ID_CURR,42,3,linear,ROC AUC,True,3,3,60,20,1,False,246008,61503,120,16,104,True

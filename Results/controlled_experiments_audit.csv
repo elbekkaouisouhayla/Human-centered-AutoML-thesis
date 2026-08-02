@@ -1,0 +1,97 @@
+framework,dataset,seed,status,runtime_seconds,selected_model,accuracy,precision_macro,recall_macro,f1_macro,roc_auc,models_evaluated,source_file,duplicate_run,valid_dataset,valid_seed,valid_framework,missing_required_metric,metric_out_of_range,runtime_valid,audit_result
+PyCaret,breast_cancer,42,completed,5.365378800081089,LogisticRegression,0.9824561403508772,0.9811507936507936,0.9811507936507936,0.9811507936507936,,,pycaret_results(1).csv,False,True,True,True,False,False,True,PASS
+PyCaret,breast_cancer,123,completed,6.29295130004175,LogisticRegression,0.9736842105263158,0.974106247911794,0.9692460317460316,0.9715828832571666,,,pycaret_results(1).csv,False,True,True,True,False,False,True,PASS
+PyCaret,breast_cancer,2026,completed,9.161379399942234,LogisticRegression,0.9736842105263158,0.974106247911794,0.9692460317460316,0.9715828832571666,,,pycaret_results(1).csv,False,True,True,True,False,False,True,PASS
+PyCaret,wine,42,completed,8.640538499923423,LogisticRegression,0.9722222222222222,0.977777777777778,0.9666666666666668,0.970961887477314,,,pycaret_results(1).csv,False,True,True,True,False,False,True,PASS
+PyCaret,wine,123,completed,8.432648899964988,LogisticRegression,1.0,1.0,1.0,1.0,,,pycaret_results(1).csv,False,True,True,True,False,False,True,PASS
+PyCaret,wine,2026,completed,9.199280699947847,LogisticRegression,0.9722222222222222,0.9743589743589745,0.9761904761904764,0.974320987654321,,,pycaret_results(1).csv,False,True,True,True,False,False,True,PASS
+PyCaret,titanic,42,completed,8.874241600045934,LGBMClassifier,0.8091603053435115,0.7978395061728395,0.7978395061728395,0.7978395061728395,,,pycaret_results(1).csv,False,True,True,True,False,False,True,PASS
+PyCaret,titanic,123,completed,7.657187999924645,LGBMClassifier,0.7633587786259542,0.7503196930946292,0.7416666666666667,0.7451681726907631,,,pycaret_results(1).csv,False,True,True,True,False,False,True,PASS
+PyCaret,titanic,2026,completed,7.08950709993951,GradientBoostingClassifier,0.7977099236641222,0.7938009019317493,0.7694444444444444,0.7774786468599266,,,pycaret_results(1).csv,False,True,True,True,False,False,True,PASS
+TPOT,breast_cancer,42,completed,612.8724722999614,"Pipeline(steps=[('stackingestimator',
+                 StackingEstimator(estimator=MLPClassifier(alpha=0.01,
+                                                           learning_rate_init=1.0,
+                                                           random_state=42))),
+                ('mlpclassifier',
+                 MLPClassifier(alpha=0.001, learning_rate_init=0.01,
+                               random_state=42))])",0.9649122807017544,0.9623015873015872,0.9623015873015872,0.9623015873015872,,,tpot_results(1).csv,False,True,True,True,False,False,True,PASS
+TPOT,breast_cancer,123,completed,602.7904437999241,"Pipeline(steps=[('stackingestimator',
+                 StackingEstimator(estimator=BernoulliNB(alpha=100.0))),
+                ('sgdclassifier',
+                 SGDClassifier(alpha=0.001, eta0=0.01, fit_intercept=False,
+                               l1_ratio=0.75, learning_rate='constant',
+                               penalty='elasticnet', power_t=50.0,
+                               random_state=123))])",0.9649122807017544,0.9672297297297296,0.95734126984127,0.9619111259605746,,,tpot_results(1).csv,False,True,True,True,False,False,True,PASS
+TPOT,breast_cancer,2026,completed,605.5658998000436,"Pipeline(steps=[('standardscaler', StandardScaler()),
+                ('zerocount', ZeroCount()),
+                ('mlpclassifier', MLPClassifier(random_state=2026))])",0.9649122807017544,0.9623015873015872,0.9623015873015872,0.9623015873015872,,,tpot_results(1).csv,False,True,True,True,False,False,True,PASS
+TPOT,wine,42,completed,600.2437883000821,"Pipeline(steps=[('stackingestimator',
+                 StackingEstimator(estimator=LinearSVC(C=10.0, dual=False,
+                                                       random_state=42,
+                                                       tol=0.1))),
+                ('mlpclassifier',
+                 MLPClassifier(alpha=0.1, learning_rate_init=0.01,
+                               random_state=42))])",0.9722222222222222,0.977777777777778,0.9666666666666668,0.970961887477314,,,tpot_results(1).csv,False,True,True,True,False,False,True,PASS
+TPOT,wine,123,completed,609.8060489001218,"Pipeline(steps=[('extratreesclassifier',
+                 ExtraTreesClassifier(max_features=0.35000000000000003,
+                                      min_samples_split=17,
+                                      random_state=123))])",0.9722222222222222,0.9743589743589745,0.9761904761904764,0.974320987654321,,,tpot_results(1).csv,False,True,True,True,False,False,True,PASS
+TPOT,wine,2026,completed,603.2623889001552,"Pipeline(steps=[('gradientboostingclassifier',
+                 GradientBoostingClassifier(learning_rate=0.01, max_depth=1,
+                                            max_features=0.5,
+                                            min_samples_leaf=6,
+                                            min_samples_split=10,
+                                            random_state=2026,
+                                            subsample=0.3))])",0.9444444444444444,0.9523809523809524,0.9523809523809524,0.9487179487179488,,,tpot_results(1).csv,False,True,True,True,False,False,True,PASS
+TPOT,titanic,42,completed,611.0791285000741,"Pipeline(steps=[('featureunion',
+                 FeatureUnion(transformer_list=[('functiontransformer-1',
+                                                 FunctionTransformer(func=<function copy at 0x0000019BAB396840>)),
+                                                ('functiontransformer-2',
+                                                 FunctionTransformer(func=<function copy at 0x0000019BAB396840>))])),
+                ('randomforestclassifier',
+                 RandomForestClassifier(bootstrap=False, max_features=0.2,
+                                        min_samples_split=18,
+                                        random_state=42))])",0.816793893129771,0.8064335490293678,0.8040123456790124,0.8051682468860383,,,tpot_results(1).csv,False,True,True,True,False,False,True,PASS
+TPOT,titanic,123,completed,644.3217138000764,"Pipeline(steps=[('stackingestimator',
+                 StackingEstimator(estimator=ExtraTreesClassifier(max_features=1.0,
+                                                                  min_samples_leaf=15,
+                                                                  min_samples_split=17,
+                                                                  random_state=123))),
+                ('randomforestclassifier',
+                 RandomForestClassifier(max_features=0.8, min_samples_leaf=3,
+                                        min_samples_split=9,
+                                        random_state=123))])",0.7748091603053435,0.7640124699616808,0.750925925925926,0.7558556424228066,,,tpot_results(1).csv,False,True,True,True,False,False,True,PASS
+TPOT,titanic,2026,completed,624.349015200045,"Pipeline(steps=[('featureunion',
+                 FeatureUnion(transformer_list=[('pipeline',
+                                                 Pipeline(steps=[('stackingestimator',
+                                                                  StackingEstimator(estimator=XGBClassifier(base_score=None,
+                                                                                                            booster=None,
+                                                                                                            callbacks=None,
+                                                                                                            colsample_bylevel=None,
+                                                                                                            colsample_bynode=None,
+                                                                                                            colsample_bytree=None,
+                                                                                                            device=None,
+                                                                                                            early_stopping_rounds=None,
+                                                                                                            enable_categorical=False,
+                                                                                                            eval_metric=None,
+                                                                                                            feat...
+                                                                                                            num_parallel_tree=None, ...))),
+                                                                 ('polynomialfeatures',
+                                                                  PolynomialFeatures(include_bias=False))])),
+                                                ('selectfrommodel',
+                                                 SelectFromModel(estimator=ExtraTreesClassifier(max_features=0.3,
+                                                                                                random_state=2026),
+                                                                 threshold=0.05))])),
+                ('randomforestclassifier',
+                 RandomForestClassifier(criterion='entropy', max_features=0.8,
+                                        min_samples_leaf=6, min_samples_split=3,
+                                        random_state=2026))])",0.7748091603053435,0.7632221579590001,0.7528395061728395,0.7569611496313067,,,tpot_results(1).csv,False,True,True,True,False,False,True,PASS
+H2O AutoML,breast_cancer,42,completed,602.5040124000516,DeepLearning_grid_1_AutoML_1_20260726_204956_model_3,0.9298245614035088,0.9195075757575756,0.939484126984127,0.9265700483091788,,128,h2o_results(1).csv,False,True,True,True,False,False,True,PASS
+H2O AutoML,breast_cancer,123,completed,602.0183878000826,StackedEnsemble_BestOfFamily_6_AutoML_2_20260726_210000,0.9912280701754386,0.9883720930232558,0.9930555555555556,0.99062114356232,,116,h2o_results(1).csv,False,True,True,True,False,False,True,PASS
+H2O AutoML,breast_cancer,2026,completed,598.1022862000391,GBM_3_AutoML_3_20260726_211003,0.912280701754386,0.9021875,0.925595238095238,0.9088874680306904,,62,h2o_results(1).csv,False,True,True,True,False,False,True,PASS
+H2O AutoML,wine,42,completed,601.7448986999225,StackedEnsemble_BestOfFamily_3_AutoML_4_20260726_212002,0.9444444444444444,0.9583333333333334,0.9333333333333332,0.9407407407407408,,172,h2o_results(1).csv,False,True,True,True,False,False,True,PASS
+H2O AutoML,wine,123,completed,602.8983303999994,GBM_grid_1_AutoML_5_20260726_213005_model_48,0.9722222222222222,0.9743589743589745,0.9761904761904764,0.974320987654321,,137,h2o_results(1).csv,False,True,True,True,False,False,True,PASS
+H2O AutoML,wine,2026,completed,601.6194412000477,DRF_1_AutoML_6_20260726_214008,0.9722222222222222,0.9743589743589745,0.9761904761904764,0.974320987654321,,128,h2o_results(1).csv,False,True,True,True,False,False,True,PASS
+H2O AutoML,titanic,42,completed,590.9800652000122,StackedEnsemble_BestOfFamily_6_AutoML_7_20260726_215010,0.8244274809160306,0.8136029411764706,0.8159259259259259,0.8147100424328146,,60,h2o_results(1).csv,False,True,True,True,False,False,True,PASS
+H2O AutoML,titanic,123,completed,590.0590906001162,GBM_grid_1_AutoML_8_20260726_220002_model_7,0.7709923664122137,0.7575462512171374,0.7612345679012346,0.7591911764705883,,68,h2o_results(1).csv,False,True,True,True,False,False,True,PASS
+H2O AutoML,titanic,2026,completed,594.5185421998613,StackedEnsemble_AllModels_4_AutoML_9_20260726_220953,0.7786259541984732,0.7695386064030132,0.7827160493827161,0.7722012352341548,,56,h2o_results(1).csv,False,True,True,True,False,False,True,PASS

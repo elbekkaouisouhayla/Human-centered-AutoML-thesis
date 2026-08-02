@@ -1,0 +1,2 @@
+framework,dataset,target,ignored_feature,seed,folds,index_handling,preprocessing,numeric_imputation,categorical_imputation,class_balancing,normalization,outlier_removal,feature_selection
+PyCaret,Home Credit Default Risk,TARGET,SK_ID_CURR,42,5,index=False,PyCaret native preprocessing,Mean,Mode,Disabled,Disabled,Disabled,Disabled

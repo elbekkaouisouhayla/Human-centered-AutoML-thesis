@@ -55,3 +55,29 @@ dist/
 
 # Temporary files
 *.tmp
+# Raw Home Credit data
+Datasets/home-credit-default-risk/
+
+# Large processed splits
+Processed/home_credit/
+
+# Large model/checkpoint files
+Results/home_credit/tpot/checkpoints/
+*.pkl
+*.joblib
+
+# Keep lightweight result files
+!Results/home_credit/**/*.csv
+!Results/home_credit/**/*.xlsx
+!Results/home_credit/**/*.png
+!Results/home_credit/**/*.txt
+!Results/home_credit/**/*.json
+!Results/home_credit/**/*.py
+# Home Credit raw data and generated splits
+Datasets/home-credit-default-risk/
+Processed/home_credit/
+
+# Heavy generated artifacts
+Results/home_credit/tpot/checkpoints/
+Results/home_credit/pycaret/pycaret_best_model.pkl
+*.joblib

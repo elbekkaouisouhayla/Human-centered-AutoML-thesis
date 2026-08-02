@@ -1,0 +1,11 @@
+processed_feature
+pclass
+age
+sibsp
+parch
+fare
+sex_female
+sex_male
+embarked_C
+embarked_Q
+embarked_S
